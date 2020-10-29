@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 180%;
+    color: #7777777;
+    box-sizing:border-box;
+    background-color:grey;
+}
+/* User Section */
+.sign-up {
+    color: #000000;
+    float: right;
+    text-decoration: none;
+    font-size: 1rem;
+    margin: 10px 15px;
+    font-weight: bold;
+    word-spacing: 0.5rem;
+}
+.sign-up a {
+    color: black;
+}
+.sign-up a:hover {
+    color: blue;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+/* End of User Section */
+/* Hero/Navbar Section */
+.hero {
+
+}
+.hero > img {  
+    padding-top: 10px;
+    margin: 5px;
+    width: 100%;
+    top:20px;
+    height: 100%;
+    position: absolute;
+}
+.hero-text {
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar {
+    position: absolute;
+    top: 50px;
+}
+.navbar {
+    background: none;
+    background-color: red;
+}
+
+.carousel-caption {
+	top: 30%
+}
+.slider-title {
+	font-size: 60px;
+}
+
+.slider-text {
+	font-size: 30px;
+}
+/* End of Hero/Navbar Section */
+/* Category Section */
+.category-area {
+    margin-top: 30px;
+    height: 100vh;
+}
+.section-title {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+#first-category-card {
+    background-color: #088da5;
+}
+#mid-category-card {
+    background-color: red;
+}
+#last-category-card {
+    background-color: #fb8efb;
+}
